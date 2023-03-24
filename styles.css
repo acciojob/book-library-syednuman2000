@@ -1,11 +1,15 @@
 /*  your css code here. If applicable */
-body{
+body > div{
 	background-color:#f8f8f8;
 }
-.book_library{
+.head{
+	width:100%;
+}
+.book-library{
 	display:flex;
 	flex-direction:column;
 	gap:30px;
+	box-shadow: 5px 3px grey;
 }
 .image{
 	display:flex;
@@ -24,9 +28,10 @@ p{
 	color:#777777;
 	margin:0px;
 }
-.price_block{
+.price{
 	background-color:#2ecc71;
 	text-align:center;
 	padding:10px;
 	border-radius:5px;
+	color:white;
 }
