@@ -1,6 +1,6 @@
 /*  your css code here. If applicable */
 body > div{
-	background-color:#f8f8f8;
+	background-color:rgb(46, 204, 113);
 }
 .head{
 	width:100%;
@@ -14,7 +14,7 @@ body > div{
 .image{
 	display:flex;
 	justify-content:center;
-	background-color:#f8f8f8;
+	background-color:rgb(46, 204, 113);
 }
 h1{
 	text-align:center;
